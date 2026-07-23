@@ -20,10 +20,6 @@ public class Tarefa {
     }
 //Setters(acessar e alterar): o método publico para conversar com outras classes
     //void para não retornar nada, apenas alterar, parametro que serve para ser a nova alteração
-    public void setId(Long id){
-        this.id = id;
-    }
-
     public String getTitulo(){
         return titulo;
     }
